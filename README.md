@@ -4,9 +4,6 @@ A local, open-source CLI that scans a project's source files for hidden maliciou
 
 This project exists because of a real incident: a supply-chain malware pattern (linked to the Lazarus Group "Contagious Interview" campaign) was found hidden in a `postcss.config.mjs` file — legitimate code, followed by 200+ blank spaces, followed by an obfuscated payload that ran on every build. Continuum's first detector targets exactly that shape.
 
-## Why local, not a hosted service
-
-Continuum runs entirely on your machine. Your source code is never uploaded anywhere. For a security tool, that's not a preference — it's the whole point: a tool that asks you to trust it with your code is asking you to recreate the exact risk it claims to defend against.
 
 ## Usage
 
