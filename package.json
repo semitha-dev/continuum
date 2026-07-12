@@ -1,0 +1,10 @@
+{
+  "name": "continuum",
+  "version": "0.1.0",
+  "description": "Scans source files for hidden malicious payloads (e.g. obfuscated code smuggled into config files).",
+  "bin": {
+    "continuum": "./bin/cli.js"
+  },
+  "type": "module",
+  "license": "MIT"
+}
