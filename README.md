@@ -1,8 +1,8 @@
 # Continuum
 
-A local, open-source CLI that scans a project's source files for hidden malicious payloads — the kind smuggled into build/config files (`postcss.config.mjs`, `webpack.config.js`, etc.) that silently execute on every `dev`/`build`.
+A local, open-source CLI that scans a project's source files for hidden malicious payloads the kind smuggled into build/config files (`postcss.config.mjs`, `webpack.config.js`, etc.) that silently execute on every `dev`/`build`.
 
-This project exists because of a real incident: a supply-chain malware pattern (linked to the Lazarus Group "Contagious Interview" campaign) was found hidden in a `postcss.config.mjs` file — legitimate code, followed by 200+ blank spaces, followed by an obfuscated payload that ran on every build. Continuum's first detector targets exactly that shape.
+This project exists because of a real incident: a supply-chain malware pattern was found hidden in a `postcss.config.mjs` file  legitimate code, followed by 200+ blank spaces, followed by an obfuscated payload that ran on every build. Continuum's first detector targets exactly that shape.
 
 
 ## Usage
